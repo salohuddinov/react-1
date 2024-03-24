@@ -1,0 +1,34 @@
+.main__left,
+.main__right {
+    background: #fbfbfd;
+}
+
+.main__left h2,
+.main__right h2 {
+    font-family: serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main__left p,
+.main__right p {
+    font-family: serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 350px;
+}
+
+.right__img {
+    width: 750px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.left__img {
+    padding-left: 150px;
+    height: 400px;
+}

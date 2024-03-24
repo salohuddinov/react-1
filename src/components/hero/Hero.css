@@ -1,0 +1,138 @@
+.hero {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 60px;
+    background: #000;
+}
+
+
+.hero__h1 {
+    font-family: serif;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.hero__p {
+    padding: 10px 0;
+    font-family: serif;
+    font-size: 35px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.hero__brn {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    gap: 45px;
+}
+
+.btn__hero {
+    font-family: serif;
+    font-size: 25px;
+    color: blue;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.btn__hero:hover {
+    box-shadow: 0 2px 0px 0 #0004ff;
+}
+
+/* hero2  */
+
+.hero2 {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 60px;
+    background: #f3f7f6;
+}
+
+.hero2__h1 {
+    font-family: serif;
+    font-size: 65px;
+    color: #000000;
+}
+
+
+.hero2__p {
+    padding: 10px 0;
+    font-family: serif;
+    font-size: 35px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.hero2__brn {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    gap: 45px;
+}
+
+.btn__hero2 {
+    font-family: serif;
+    font-size: 25px;
+    color: blue;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.btn__hero2:hover {
+    box-shadow: 0 2px 0px 0 #0004ff;
+}
+
+.hero2__images {
+    width: 100%;
+}
+
+/* hero3 */
+
+.hero3 {
+    width: 100%;
+    min-height: 618px;
+    text-align: center;
+    background: #f3f7f6;
+}
+
+.hero3__img {
+    display: inline;
+}
+
+.hero3__h1 {
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    font-size: 65px;
+    color: #000000;
+    margin-top: -190px;
+}
+
+.hero3__p {
+    padding: 10px 0;
+    font-family: serif;
+    font-size: 35px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.hero3__brn {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    gap: 45px;
+}
+
+.btn__hero3 {
+    font-family: serif;
+    font-size: 25px;
+    color: blue;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+}
+
+.btn__hero3:hover {
+    box-shadow: 0 2px 0px 0 #0004ff;
+}
