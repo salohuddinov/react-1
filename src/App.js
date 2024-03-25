@@ -14,7 +14,6 @@ function App() {
       <Prodacts />
       <Main />
       <Footer />
-
     </div>
   );
 }
