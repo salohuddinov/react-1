@@ -8,7 +8,7 @@ import rasm7 from "../assets/images/card-watch.png"
 
 
 
-export const NAVBAR_ITEMS = ["Store", "MAC", "iPad", "Phone", "Watch", "Vision", "Airpods", "TV & Home", "Entertaiment", "Accessories", "Support"]
+export const NAVBAR_ITEMS = ["Airpods", "TV & Home", "Entertaiment", "Accessories", "Support"]
 
 
 export const PRODACT = [

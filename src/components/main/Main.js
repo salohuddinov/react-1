@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import "./Main.css"
 import rasm8 from "../../assets/images/card.png"
 import rasm9 from "../../assets/images/phone.png"
@@ -31,4 +31,4 @@ function Main() {
     )
 }
 
-export default Main
+export default memo(Main) 

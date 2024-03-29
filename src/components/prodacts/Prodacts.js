@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { PRODACT } from '../../static'
 
 function Prodacts() {
@@ -27,4 +27,4 @@ function Prodacts() {
     )
 }
 
-export default Prodacts
+export default memo(Prodacts) 

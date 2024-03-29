@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import "./Hero.css"
 import rasm1 from "../../assets/images/hero-iphone15max.png"
 import rasm2 from "../../assets/images/hero-iphone15.png"
@@ -40,4 +40,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default memo(Hero) 

@@ -1,0 +1,61 @@
+.ipad__hero {
+    display: flex;
+    width: 100%;
+    gap: 35px;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.ipad__card__img {
+    width: 70px;
+    height: 70px;
+}
+
+.ihero__card h4 {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: block;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: .3s ease-in-out;
+}
+
+.ihero__card h4:hover {
+    color: blue;
+}
+
+.ipad__hero__bootm {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+}
+
+.ipad__hero__bootm p {
+    font-size: 14px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: Text, Helvetica, Helvetica, Arial, sans-serif;
+    padding: 10px 0 5px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.ipad__hero__bootm button {
+    color: #1141d4;
+    background: transparent;
+}
+
+.ipad__section__img {
+    width: 100%;
+}

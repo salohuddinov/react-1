@@ -1,0 +1,136 @@
+.mac__hero {
+    display: flex;
+    width: 100%;
+    gap: 35px;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(250, 250, 252, 0.92);
+}
+
+.mhero__card h4 {
+    color: #000000;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    transition: .3s ease-in-out;
+}
+
+.mhero__card h4:hover {
+    color: blue;
+}
+
+
+.hcard__img {
+    width: 70px;
+    height: 80px;
+}
+
+.mhero__bootm {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #ddd;
+}
+
+.mhero__bootm p {
+    font-size: 14px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: Text, Helvetica, Helvetica, Arial, sans-serif;
+    padding: 10px 0 5px 0;
+    text-align: center;
+}
+
+.mhero__bootm button {
+    display: flex;
+    color: #1141d4;
+    background: transparent;
+    margin-top: -23px;
+    margin-left: 840px;
+}
+
+.msection__top {
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.msection__top h1 {
+    font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.msection__top h3 {
+    font-size: 23px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.msection__vd {
+    padding-top: 400px;
+}
+
+.card {
+    perspective: 1000px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(180deg);
+}
+
+.card__fimg {
+    width: 94%;
+}
